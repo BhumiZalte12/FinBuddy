@@ -5,7 +5,7 @@ import { Form, NavLink } from "react-router-dom"
 import { TrashIcon } from '@heroicons/react/24/solid'
 
 // assets
-import logomark from "../assets/logomark.svg"
+import logomark from "../assets/logo.png"
 
 const Nav = ({ userName }) => {
   return (
@@ -14,8 +14,8 @@ const Nav = ({ userName }) => {
         to="/"
         aria-label="Go to home"
       >
-        <img src={logomark} alt="" height={30} />
-        <span>MoneyMate</span>
+        <img src={logomark} alt="" height={110} />
+        
       </NavLink>
       {
         userName && (
